@@ -1,33 +1,19 @@
-
-/* Your CSS Code here. */
 table {
   border-collapse: collapse;
 }
 
-.main-table {
-  width: 100%;
-  height: 100%;
-  border: 1px solid black;
-}
-
-.main-table td {
-  border: 1px solid black;
-  padding: 10px;
-}
-
-.nested-table {
+.main, .nested {
   width: 100%;
   border: 1px solid black;
 }
 
-.nested-table th,
-.nested-table td {
+td, th {
   border: 1px solid black;
   padding: 8px;
   text-align: center;
 }
 
-.html-cell {
+.black-cell {
   background-color: black;
   color: white;
   font-weight: bold;
